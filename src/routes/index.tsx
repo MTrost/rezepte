@@ -180,6 +180,19 @@ function HomePage() {
         </div>
       </section>
 
+      {/* Limerick Section */}
+      <section className="py-12 px-6 bg-orange-50">
+        <div className="max-w-2xl mx-auto text-center">
+          <p className="text-gray-600 italic text-lg leading-relaxed">
+            Ein Koch aus dem schönen Wien,<br />
+            der wollte stets Neues probier'n.<br />
+            Er rührte und briet,<br />
+            sang dabei ein Lied,<br />
+            und ließ alle Gäste erglüh'n.
+          </p>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 px-6 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
         <div className="max-w-3xl mx-auto text-center">
