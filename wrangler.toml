@@ -1,0 +1,21 @@
+name = "rezepte"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# D1 Database
+[[d1_databases]]
+binding = "DB"
+database_name = "rezepte-db"
+database_id = "YOUR_DATABASE_ID" # Replace after: wrangler d1 create rezepte-db
+
+# R2 Bucket for images/assets
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "rezepte-assets"
+
+# Environment variables (set via wrangler secret)
+# BETTER_AUTH_SECRET - Auth secret key
+# BETTER_AUTH_URL - Base URL for auth
+
+[vars]
+ENVIRONMENT = "production"
